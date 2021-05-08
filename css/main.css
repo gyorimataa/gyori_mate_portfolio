@@ -1,0 +1,211 @@
+body{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+*, *::before, *::after{
+	box-sizing:  border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+/*--kozos_tulajdonsagok--*/
+  body{
+  	display:grid;
+  	   grid-template-areas: 
+  	   "fejlec"
+  	   "foresz"
+  	   "lablec"
+  	   ;
+  	grid-template-rows: max-content 1fr max-content;
+  	min-height: 100vh;   
+  }
+
+  header{
+  	background-color: lightgrey;
+  	grid-area: fejlec;
+  	border: 2px solid black;
+  }
+
+  main{
+  	background-color: beige;
+  	grid-area: foresz;
+  }
+
+  footer{
+  	background-color: lightgrey;
+  	grid-area: lablec;
+  	border: 2px solid black;
+  }
+
+  a{
+  	text-decoration: none;
+  	color: brown;
+  }
+/*--kozos_tulajdonsagok_vege--*/
+
+/*--fejlec--*/
+   .gomb{
+   	border:2px solid black;
+   	background-color: beige;
+   	display: inline-block;
+   	padding: .5rem 1rem;
+   	margin: 1rem 1rem;
+   	transition: .3s;
+   	font-weight: 800;
+   	user-select: none;
+   }
+
+   .gomb:hover{
+   	cursor: pointer;
+   	background-color: white;
+   }
+
+   .gomb_jobbra{
+   	float: right;
+   }
+/*--fejlec_vege--*/
+
+/*--lablec--*/
+    .elerhetoseg{
+    	font-weight: 800;
+    	padding: 0rem 1rem;
+    	margin: .5rem 1rem;
+    }
+
+    .telefon{
+    	padding: 0rem 3rem;
+    	margin: .5rem 1rem;
+    }
+
+    .email{
+    	padding: 0rem 3rem;
+    	margin: .5rem 1rem;
+    }
+/*--lablec_vege--*/
+
+/*--1.oldal--*/
+   .bemutatkozas{
+   	padding: 0rem 1rem;
+   	margin: 1rem .5rem;
+   	float: left;
+   }
+
+   .bemutatkozas_kep{
+   	max-height: 25rem;
+   	padding: 0rem 0rem 0rem 1rem;
+   	margin: 0rem 0rem .5rem .5rem;
+   	float: right;
+   	display: inline-block;
+   }
+
+   .tortenet{
+   	margin: 2.5rem 0rem 0rem 0rem;
+   }
+/*--1.oldal_vege--*/
+
+/*--2.oldal--*/
+   .tanulmanyok{
+   	border: 2px solid brown;
+   	padding: .5rem 1rem;
+   	margin: .5rem .5rem;
+   }
+
+   .tanulmanyok img{
+   	max-height: 10rem;
+   	display: inline-block;
+   	margin: 5px auto;
+   }
+
+   .kompetencia{
+   	border: 2px solid brown;
+   	padding: .5rem 1rem;
+   	margin: .5rem .5rem;
+   }
+
+   .nyelv{
+   	padding: 0rem 0rem .5rem 1rem;
+   	margin: 0rem 0rem .5rem .5rem;
+   }
+
+   .szgism{
+   	padding: 0rem 0rem .5rem 1rem;
+   	margin: 0rem 0rem .5rem .5rem;
+   }
+
+   .eross{
+   	padding: 0rem 0rem .5rem 1rem;
+   	margin: 0rem 0rem .5rem .5rem;
+   }
+
+   .keszsegek{
+   	padding: 0rem 0rem .5rem 1rem;
+   	margin: 0rem 0rem .5rem .5rem;
+   }
+
+   .szabadido{
+   	border: 2px solid brown;
+   	padding: .5rem 1rem;
+   	margin: .5rem .5rem;
+   }
+
+   .szabadido img{
+   	max-height: 20rem;
+   	display: inline-block;
+   	margin: 10px auto;
+   }
+
+   .szabadido_kepek{
+   	display: grid;
+   	grid-template-columns: 1fr max-content 1fr;
+   }
+/*--2.oldal_vege--*/
+
+/*--3.oldal--*/
+   .szakmai{
+   	padding: 1rem 1rem;
+   	margin: .5rem .5rem;
+   	display: inline-block;
+   }
+
+   .szakmai img{
+   	max-height: 12rem;
+   	padding: 0rem 0rem 0rem 1rem;
+   	margin: 0rem 0rem .5rem .5rem;
+   	float: right;
+   	display: inline-block;
+   }
+/*--3.oldal_vege--*/
+
+/*--4.oldal--*/
+   .terv{
+   	padding: 0rem 1rem;
+   	margin: .5rem .5rem;
+   }
+
+   .terv img{
+   	max-height: 12.5rem;
+   	display: inline-block;
+   	margin: 5px auto;
+   }
+
+   .kiindulas{
+   	padding: 0rem 0rem .5rem 0rem;
+   	margin: 0rem 0rem .5rem 0rem;
+   }
+
+   .nehezsegek{
+   	padding: 0rem 0rem .5rem 1rem;
+   	margin: 0rem 0rem .5rem .5rem;
+   }
+
+   .linkek{
+   	padding: 0rem 0rem 0rem 1rem;
+   	margin: 0rem 0rem 0rem .5rem;
+   }
+/*--4.oldal_vege--*/
